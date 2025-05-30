@@ -11,6 +11,8 @@ inputs:
     required: true
 
 outputs:
+
+# TODO: Remove once the common repo is public.
   prerelease:
     value: ${{ steps.get_prerelease.outputs.PRERELEASE }}
 
